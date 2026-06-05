@@ -4,7 +4,11 @@
    and sticky header shadow.
 ============================================================ */
 
-document.addEventListener('DOMContentLoaded', () => {
+// Skip all functionality if in Shopify theme editor
+if (window.Shopify?.designMode) {
+  console.log('Running in Shopify theme editor - functionality disabled');
+} else {
+  document.addEventListener('DOMContentLoaded', () => {
 
   // ---- MOBILE HAMBURGER / NAV --------------------------------
   const hamburger  = document.getElementById('hamburger');
@@ -254,4 +258,5 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 
-});
+  });
+}
