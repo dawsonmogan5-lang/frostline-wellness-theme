@@ -1,11 +1,11 @@
 <section class="hero">
   <div class="hero-content">
-    <span class="hero-eyebrow">Idaho &amp; Utah's Premier Cold Plunge Dealer</span>
-    <h1>COLD THERAPY<br><span class="accent-text">Reimagined</span></h1>
-    <p class="hero-subtext">Professional-grade cold plunge systems, delivered across Idaho and Utah.</p>
+    <span class="hero-eyebrow">{{ section.settings.eyebrow }}</span>
+    <h1>{{ section.settings.heading }}<br><span class="accent-text">{{ section.settings.subheading }}</span></h1>
+    <p class="hero-subtext">{{ section.settings.description }}</p>
     <div class="hero-ctas">
-      <a href="/collections/products" class="btn btn-accent btn-large">Shop Cold Plunges</a>
-      <a href="/pages/contact" class="btn btn-outline-hero btn-large">Book a Free Consult</a>
+      <a href="{{ section.settings.button_1_link }}" class="btn btn-accent btn-large">{{ section.settings.button_1_text }}</a>
+      <a href="{{ section.settings.button_2_link }}" class="btn btn-outline-hero btn-large">{{ section.settings.button_2_text }}</a>
     </div>
   </div>
 </section>
@@ -13,6 +13,53 @@
 {% schema %}
 {
   "name": "Hero",
-  "settings": []
+  "settings": [
+    {
+      "type": "text",
+      "id": "eyebrow",
+      "label": "Eyebrow text",
+      "default": "Idaho & Utah's Premier Cold Plunge Dealer"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "COLD THERAPY"
+    },
+    {
+      "type": "text",
+      "id": "subheading",
+      "label": "Subheading (accent color)",
+      "default": "Reimagined"
+    },
+    {
+      "type": "textarea",
+      "id": "description",
+      "label": "Description",
+      "default": "Professional-grade cold plunge systems, delivered across Idaho and Utah."
+    },
+    {
+      "type": "text",
+      "id": "button_1_text",
+      "label": "Button 1 text",
+      "default": "Shop Cold Plunges"
+    },
+    {
+      "type": "url",
+      "id": "button_1_link",
+      "label": "Button 1 link"
+    },
+    {
+      "type": "text",
+      "id": "button_2_text",
+      "label": "Button 2 text",
+      "default": "Book a Free Consult"
+    },
+    {
+      "type": "url",
+      "id": "button_2_link",
+      "label": "Button 2 link"
+    }
+  ]
 }
 {% endschema %}
