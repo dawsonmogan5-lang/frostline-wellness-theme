@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Theme Settings",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Frostline Wellness Theme"
+      }
+    ]
+  },
+  {
+    "name": "Product Collections",
+    "settings": [
+      {
+        "type": "text",
+        "id": "residential_collection",
+        "label": "Residential Collection Handle",
+        "default": "residential",
+        "info": "The Shopify collection handle for residential products"
+      },
+      {
+        "type": "text",
+        "id": "commercial_collection",
+        "label": "Commercial Collection Handle",
+        "default": "commercial",
+        "info": "The Shopify collection handle for commercial products"
+      }
+    ]
+  }
+]

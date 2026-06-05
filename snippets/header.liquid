@@ -1,0 +1,43 @@
+<header class="site-header" id="siteHeader">
+  <nav class="nav-container">
+    <a href="/" class="nav-logo">
+      <img src="{{ 'IMG_3328__1_-removebg-preview.png' | asset_url }}" alt="Frostline Wellness logo">
+      Frostline Wellness
+    </a>
+    <ul class="nav-links">
+      <li><a href="/" class="{% if request.path == '/' %}nav-active{% endif %}">Home</a></li>
+      <li class="nav-dropdown">
+        <a href="/collections/products">Products</a>
+        <ul class="nav-dropdown-menu">
+          <li><a href="/collections/residential">Residential</a></li>
+          <li><a href="/collections/commercial">Commercial</a></li>
+          <li><a href="/collections/products">All Products</a></li>
+        </ul>
+      </li>
+      <li><a href="/pages/about">About Us</a></li>
+      <li><a href="/pages/faq">FAQ</a></li>
+      <li><a href="/pages/contact">Contact</a></li>
+    </ul>
+    <div class="nav-actions">
+      <a href="/collections/products" class="btn btn-accent">Shop Now</a>
+    </div>
+    <button class="hamburger" id="hamburger" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/pages/about">About Us</a></li>
+      <li><a href="/collections/products">Products</a></li>
+      <li class="mobile-sub"><a href="/collections/residential">Residential</a></li>
+      <li class="mobile-sub"><a href="/collections/commercial">Commercial</a></li>
+      <li class="mobile-sub"><a href="/collections/products">All Products</a></li>
+      <li><a href="/pages/faq">FAQ</a></li>
+      <li><a href="/pages/contact">Contact</a></li>
+    </ul>
+    <div class="mobile-menu-actions">
+      <a href="/collections/products" class="btn btn-accent">Shop Now</a>
+    </div>
+  </div>
+</header>

@@ -1,0 +1,328 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Frostline Wellness — Idaho and Utah's authorized PlungeZero cold plunge dealer. Shop residential and commercial cold plunge systems with free shipping.">
+  <title>Frostline Wellness</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;900&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ============================================================
+       ANNOUNCEMENT BAR
+  ============================================================ -->
+  <div class="announcement-bar">
+    <p>Free shipping on all orders &nbsp;|&nbsp; Serving Idaho &amp; Utah</p>
+  </div>
+
+  <!-- ============================================================
+       HEADER / NAVIGATION
+  ============================================================ -->
+  <header class="site-header" id="siteHeader">
+    <nav class="nav-container">
+
+      <a href="index.html" class="nav-logo"><img src="project%20media/IMG_3328__1_-removebg-preview.png" alt="Frostline Wellness logo"> Frostline Wellness</a>
+
+      <ul class="nav-links">
+        <li><a href="index.html" class="nav-active">Home</a></li>
+        <li class="nav-dropdown">
+          <a href="cold-plunge.html">Products</a>
+          <ul class="nav-dropdown-menu">
+            <li><a href="residential.html">Residential</a></li>
+            <li><a href="commercial.html">Commercial</a></li>
+            <li><a href="cold-plunge.html">All Products</a></li>
+          </ul>
+        </li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <a href="cold-plunge.html" class="btn btn-accent">Shop Now</a>
+      </div>
+
+      <button class="hamburger" id="hamburger" aria-label="Open menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="cold-plunge.html">Products</a></li>
+        <li class="mobile-sub"><a href="residential.html">Residential</a></li>
+        <li class="mobile-sub"><a href="commercial.html">Commercial</a></li>
+        <li class="mobile-sub"><a href="cold-plunge.html">All Products</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="mobile-menu-actions">
+        <a href="cold-plunge.html" class="btn btn-accent">Shop Now</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============================================================
+       MAIN CONTENT
+  ============================================================ -->
+  <main>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-content">
+        <span class="hero-eyebrow">Idaho &amp; Utah's Premier Cold Plunge Dealer</span>
+        <h1>COLD THERAPY<br><span class="accent-text">Reimagined</span></h1>
+        <p class="hero-subtext">Professional-grade cold plunge systems, delivered across Idaho and Utah.</p>
+        <div class="hero-ctas">
+          <a href="cold-plunge.html" class="btn btn-accent btn-large">Shop Cold Plunges</a>
+          <a href="contact.html" class="btn btn-outline-hero btn-large">Book a Free Consult</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- TRUST BAR -->
+    <div class="trust-bar">
+      <div class="trust-bar-inner">
+        <div class="trust-item">
+          <span class="trust-icon">[&#10003;]</span>
+          <span>Free Shipping</span>
+        </div>
+        <div class="trust-item">
+          <span class="trust-icon">[&#10003;]</span>
+          <span>Official PlungeZero Dealer</span>
+        </div>
+        <div class="trust-item">
+          <span class="trust-icon">[&#10003;]</span>
+          <span>1 Year Commercial and Residential Warranty</span>
+        </div>
+        <div class="trust-item">
+          <span class="trust-icon">[&#10003;]</span>
+          <span>Idaho &amp; Utah Service Area</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- BRIEF ABOUT US -->
+    <section class="section about-brief">
+      <div class="container">
+        <div class="about-brief-grid">
+          <div class="about-brief-img">
+            <div class="img-placeholder about-brief-photo" style="padding:0;overflow:hidden;"><img src="project%20media/residential-matte-black-softtop-poolside-use.png" alt="Cold plunge lifestyle shot" style="width:100%;height:100%;object-fit:cover;display:block;"></div>
+          </div>
+          <div class="about-brief-text">
+            <span class="section-label">Who We Are</span>
+            <h2>About Us</h2>
+            <p>Frostline Wellness is Idaho and Utah's trusted source for premium cold plunge systems. As an authorized Plunge Zero dealer, we help homeowners, athletes, gyms, and wellness facilities bring professional-grade cold therapy into their daily routines.</p>
+            <p>Based in Mountain Home, Idaho, our focus is simple: provide exceptional products, honest guidance, and local support you can count on.</p>
+            <div class="about-brief-actions">
+              <a href="about.html" class="btn btn-primary">Our Full Story</a>
+              <a href="contact.html" class="btn btn-outline">Get in Touch</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRODUCT CATEGORIES -->
+    <section class="section categories">
+      <div class="container">
+        <span class="section-label">What We Offer</span>
+        <h2>Product Categories</h2>
+        <div class="categories-grid-2col">
+
+          <a href="residential.html" class="category-card reveal-item" style="text-decoration:none; display:block;">
+            <div class="category-img-placeholder" style="padding:0;overflow:hidden;"><img src="project%20media/residential-matte-black-hardtop-desert-day.png" alt="Residential cold plunge in desert setting" style="width:100%;height:100%;object-fit:cover;display:block;"></div>
+            <div class="category-card-body">
+              <h3>Residential</h3>
+              <p>Home, private training, personal recovery</p>
+              <span class="btn btn-primary">Shop Residential</span>
+            </div>
+          </a>
+
+          <a href="commercial.html" class="category-card reveal-item" style="text-decoration:none; display:block;">
+            <div class="category-img-placeholder" style="padding:0;overflow:hidden;"><img src="project%20media/commercial-matte-black-softtop-studio-row.png" alt="Commercial cold plunge studio installation" style="width:100%;height:100%;object-fit:cover;display:block;"></div>
+            <div class="category-card-body">
+              <h3>Commercial</h3>
+              <p>Gyms, spas, clinics, wellness facilities</p>
+              <span class="btn btn-primary">Shop Commercial</span>
+            </div>
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- VALUE PROPOSITION / WHY COLD THERAPY -->
+    <section class="section dark-section value-prop">
+      <div class="container">
+        <div class="value-prop-grid">
+          <div class="value-prop-text">
+            <span class="section-label light">The Science</span>
+            <h2>Why Cold Therapy</h2>
+            <p>Cold water immersion causes a huge wave of physiological responses. When your body is exposed to cold, blood vessels constrict, reducing inflammation and swelling in muscles and joints. Even after you step out of the tub and body temperature increases, the benefits continue. Your circulation surges, flushing metabolic waste, delivering oxygen-rich blood to tissues, and accelerating repair. Consistent exposure also triggers the release of norepinephrine, a hormone that can improve mood, focus, and pain tolerance.</p>
+            <p>The benefits compound over time. Athletes and active individuals use cold therapy to cut recovery time and reduce soreness after intense training. Beyond performance, consistent cold plunges have been associated with improved sleep quality, reduced anxiety, stronger immune response, and a measurable boost in daily energy.</p>
+            <a href="about.html" class="btn btn-outline-light btn-large">Our Story</a>
+          </div>
+          <div class="value-prop-img">
+            <div class="img-placeholder tall" style="padding:0;overflow:hidden;"><img src="project%20media/residential-saunaskin-softtop-led-use.png" alt="SaunaSkin cold plunge with LED lighting" style="width:100%;height:100%;object-fit:cover;display:block;"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- AUTHORIZED PARTNER -->
+    <section class="section brands">
+      <div class="container" style="max-width:800px; text-align:center;">
+        <span class="section-label">Our Partner</span>
+        <h2>Authorized Plunge Zero Dealer</h2>
+        <p style="font-size:1.05rem; color:var(--text-muted); margin-top:1.25rem; line-height:1.7;">Frostline Wellness is an officially authorized dealer for Plunge Zero, one of the most established names in professional cold plunge technology. Every system we sell is a genuine Plunge Zero unit backed by the manufacturer's warranty and built to the same performance standards used by professional athletes and elite wellness facilities.</p>
+        <p style="font-size:1.05rem; color:var(--text-muted); margin-top:1rem; line-height:1.7;">Choosing an authorized dealer like Frostline Wellness means you get the real product with full support: genuine components, warranty coverage, and a local team that stands behind every sale.</p>
+      </div>
+    </section>
+
+    <!-- WHY CHOOSE US / TRUST -->
+    <section class="section dark-section why-us">
+      <div class="container">
+        <span class="section-label light">Our Difference</span>
+        <h2>Why Choose Us</h2>
+        <div class="why-us-grid">
+
+          <div class="why-card reveal-item">
+            <div class="why-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+            <h3>Authorized Dealer</h3>
+            <p>We're an officially authorized Plunge Zero dealer, so you get the real thing backed by manufacturer warranties and full product support.</p>
+          </div>
+
+          <div class="why-card reveal-item">
+            <div class="why-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+            <h3>Local Idaho &amp; Utah Service</h3>
+            <p>Based in Mountain Home, Idaho, we serve our region personally. You'll work with real people who know your area.</p>
+          </div>
+
+          <div class="why-card reveal-item">
+            <div class="why-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13" rx="1"/><path d="M16 8h4l3 5v3h-7V8z"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg></div>
+            <h3>Free Shipping Included</h3>
+            <p>Every Plunge Zero system ships free to your door throughout Idaho and Utah. No hidden freight charges or surprise fees at checkout.</p>
+          </div>
+
+          <div class="why-card reveal-item">
+            <div class="why-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg></div>
+            <h3>Expert Guidance</h3>
+            <p>Not sure which system is right for you? We'll walk you through the options, answer your questions, and make sure you get exactly what fits your space and goals.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section dark-section faq">
+      <div class="container faq-container">
+        <span class="section-label light">Common Questions</span>
+        <h2>FAQ</h2>
+        <div class="faq-list">
+
+          <div class="faq-item">
+            <button class="faq-question">How cold do Plunge Zero units actually get?</button>
+            <div class="faq-answer">
+              <p>Plunge Zero systems can cool water down to approximately 39&deg;F (4&deg;C), well within the optimal range for cold water immersion therapy. The built-in chiller maintains a consistent temperature so you get the same experience every session.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">Do you offer free shipping?</button>
+            <div class="faq-answer">
+              <p>Yes &mdash; we include free shipping on all orders to addresses within Idaho and Utah. All standard deliveries are curbside drop-off. If you need additional delivery assistance, contact us before ordering and we'll do our best to accommodate.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">How difficult is setup?</button>
+            <div class="faq-answer">
+              <p>Super easy! Just plug the unit into a standard outlet - no special electrical work or plumbing required. Fill it with water, set your temperature, and you're ready to plunge.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">What warranty comes with a Plunge Zero unit?</button>
+            <div class="faq-answer">
+              <p>Residential units come with a 1-year manufacturer's warranty. Commercial units include warranty coverage as well. Please review our <a href="warranty.html" style="color:var(--accent);">Warranty page</a> for full details. Buying through an authorized dealer like Frostline Wellness ensures your warranty is fully valid.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer class="site-footer">
+    <div class="footer-top">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo"><img src="project%20media/IMG_3328__1_-removebg-preview.png" alt="Frostline Wellness logo"> Frostline Wellness</div>
+          <p>Idaho &amp; Utah's Premier Cold Plunge Dealer</p>
+          <div class="footer-social">
+            <a href="https://www.instagram.com/frostline.wellness" class="social-link" target="_blank" rel="noopener" aria-label="Instagram"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+            <p class="footer-social-incentive">Follow us on Instagram for new product announcements, updates, and offers.</p>
+          </div>
+        </div>
+        <div class="footer-nav">
+          <h4>Products</h4>
+          <ul>
+            <li><a href="residential.html">Residential</a></li>
+            <li><a href="commercial.html">Commercial</a></li>
+            <li><a href="cold-plunge.html">All Products</a></li>
+          </ul>
+        </div>
+        <div class="footer-nav">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-nav">
+          <h4>Policies</h4>
+          <ul>
+            <li><a href="warranty.html">Warranty</a></li>
+            <li><a href="terms-of-sale.html">Terms of Sale</a></li>
+            <li><a href="product-notice.html">Product Notice</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h4>Contact</h4>
+          <p class="footer-contact-item"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.6a16 16 0 0 0 6 6l.91-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.72 16z"/></svg><a href="tel:2088188071">(208) 818-8071</a></p>
+          <p class="footer-contact-item"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg><a href="mailto:frostline.wellness@gmail.com">frostline.wellness@gmail.com</a></p>
+          <p class="footer-contact-item footer-contact-address"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg><span>1825 S 10th E<br>Mountain Home, ID 83647</span></p>
+          <a href="contact.html" class="btn btn-outline-light" style="margin-top:16px; display:inline-block;">Get a Free Consult</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p>&copy; 2026 Frostline Wellness. All rights reserved. Authorized Plunge Zero Dealer.</p>
+        <div class="footer-bottom-links">
+          <a href="terms-of-sale.html">Terms of Sale</a>
+          <a href="product-notice.html">Product Notice</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,97 @@
+<section class="section categories">
+  <div class="container">
+    <span class="section-label">What We Offer</span>
+    <h2>Product Categories</h2>
+    <div class="categories-grid-2col">
+      {% assign residential = collections.residential.products | first %}
+      {% assign commercial = collections.commercial.products | first %}
+
+      {% if residential %}
+      <a href="{{ residential.url }}" class="category-card reveal-item" style="text-decoration:none; display:block;">
+        <div class="category-img-placeholder" style="padding:0;overflow:hidden;">
+          {% if residential.featured_image %}
+            <img src="{{ residential.featured_image | img_url: '600x600' }}" alt="{{ residential.title }}" style="width:100%;height:100%;object-fit:cover;display:block;">
+          {% else %}
+            <img src="{{ 'residential-matte-black-hardtop-desert-day.png' | asset_url }}" alt="Residential cold plunge in desert setting" style="width:100%;height:100%;object-fit:cover;display:block;">
+          {% endif %}
+        </div>
+        <div class="category-card-body">
+          <h3>Residential</h3>
+          <p>Home, private training, personal recovery</p>
+          <span class="btn btn-primary">Shop Residential</span>
+        </div>
+      </a>
+      {% endif %}
+
+      {% if commercial %}
+      <a href="{{ commercial.url }}" class="category-card reveal-item" style="text-decoration:none; display:block;">
+        <div class="category-img-placeholder" style="padding:0;overflow:hidden;">
+          {% if commercial.featured_image %}
+            <img src="{{ commercial.featured_image | img_url: '600x600' }}" alt="{{ commercial.title }}" style="width:100%;height:100%;object-fit:cover;display:block;">
+          {% else %}
+            <img src="{{ 'commercial-matte-black-softtop-studio-row.png' | asset_url }}" alt="Commercial cold plunge studio installation" style="width:100%;height:100%;object-fit:cover;display:block;">
+          {% endif %}
+        </div>
+        <div class="category-card-body">
+          <h3>Commercial</h3>
+          <p>Gyms, spas, clinics, wellness facilities</p>
+          <span class="btn btn-primary">Shop Commercial</span>
+        </div>
+      </a>
+      {% endif %}
+    </div>
+  </div>
+</section>
+
+{% stylesheet %}
+  .categories-grid-2col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
+
+  .category-card {
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+
+  .category-card:hover {
+    transform: translateY(-4px);
+  }
+
+  .category-img-placeholder {
+    aspect-ratio: 1;
+    background: var(--surface);
+  }
+
+  .category-card-body {
+    padding: 20px;
+  }
+
+  .category-card-body h3 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+
+  .category-card-body p {
+    color: var(--text-muted);
+    font-size: 14px;
+    margin-bottom: 16px;
+  }
+
+  @media (max-width: 768px) {
+    .categories-grid-2col {
+      grid-template-columns: 1fr;
+      gap: 24px;
+    }
+  }
+{% endstylesheet %}
+
+{% schema %}
+{
+  "name": "Product Categories",
+  "settings": []
+}
+{% endschema %}

@@ -1,0 +1,34 @@
+{
+  "sections": {
+    "hero": {
+      "type": "hero"
+    },
+    "trust_bar": {
+      "type": "trust-bar"
+    },
+    "about_brief": {
+      "type": "about-brief"
+    },
+    "product_categories": {
+      "type": "product-categories"
+    },
+    "value_proposition": {
+      "type": "value-proposition"
+    },
+    "faq": {
+      "type": "faq-section"
+    },
+    "cta_banner": {
+      "type": "cta-banner"
+    }
+  },
+  "order": [
+    "hero",
+    "trust_bar",
+    "about_brief",
+    "product_categories",
+    "value_proposition",
+    "faq",
+    "cta_banner"
+  ]
+}
